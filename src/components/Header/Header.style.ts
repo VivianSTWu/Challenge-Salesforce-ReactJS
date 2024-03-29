@@ -3,22 +3,23 @@ import { Link } from "react-router-dom";
 import { colors } from "../../styles/colors";
 
 export const HeaderElement = styled.header`
-  padding: 16px 0;
+  padding: 16px 0px;
   background-color: ${colors.backgound.main};
 `;
 
 export const HeaderWrapperElement = styled.div`
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   align-items: center;
   justify-content: space-between;
-  width: 80%;
-  margin: 0 auto;
+  width: 90%;
+  margin: auto auto;
 `;
 
 export const LogoElement = styled(Link)`
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   font-size: 16px;
   font-weight: 700;
   text-decoration: none;
@@ -29,3 +30,31 @@ export const LogoElement = styled(Link)`
     margin-right: 8px;
   }
 `;
+
+export const MenuIcon = styled.i`
+    display: none;
+
+    @media screen and (max-width: 767px) {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+        z-index: 20;
+    }
+
+    
+`;
+
+/*const heading = Styled.h1`
+        Text-align:right;
+
+            @media (max-width: 767px) {
+                text-align: center;
+            }
+            @media (max-width: 400px) {
+                text-align: left;
+            }
+    `;*/
