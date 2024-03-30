@@ -3,6 +3,8 @@ import { HeaderElement, HeaderWrapperElement, LogoElement } from "./Header.style
 import Logo from "../../assets/logo-salesforce.svg";
 import { MainMenu } from "../MainMenu/MainMenu";
 import { Button } from "../Button/Button";
+import { Link } from "react-router-dom";
+import Product from "../../pages/Products/Products";
 
 export function Header() {
 
