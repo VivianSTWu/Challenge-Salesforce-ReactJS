@@ -18,6 +18,7 @@ export const HeaderWrapperElement = styled.div`
 
 export const LogoElement = styled(Link)`
   display: flex;
+  justify-content: space-around;
   align-items: center;
   justify-content: flex-end;
   font-size: 16px;
