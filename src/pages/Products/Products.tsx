@@ -1,12 +1,14 @@
 import "./Products.style.ts";
 import { MainPageTitle, FlexSection, Section, SectionConfig, ProductImage, SectionGrid, SectionGridImgRight, SectionGridImgLeft } from "../../components/Sections/Sections.style"
 import { Layout } from "../../components/Layout/Layout.tsx";
+import ClickerColector from "../../components/ClickRegister/NavigationTracker.tsx";
 
 
 function Products() {
     return (
         <>
             <Layout>
+               <ClickerColector>
                 <MainPageTitle>
                     <h1>PRODUTOS</h1>
                 </MainPageTitle>
@@ -31,10 +33,10 @@ function Products() {
                         <p>O Einstein GPT se destaca como uma ferramenta essencial para impulsionar os negócios. A Inteligência Artificial da Salesforce oferece experiências personalizadas, aumenta a eficiência operacional e simplifica a inovação, colocando as empresas um passo à frente na busca pelo sucesso.</p>
                     </SectionConfig>
                 </SectionGridImgRight>
+               </ClickerColector>
             </Layout>
         </>
     )
 }
 
 export default Products
-

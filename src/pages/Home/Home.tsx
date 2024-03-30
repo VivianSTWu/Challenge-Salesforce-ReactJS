@@ -4,6 +4,7 @@ import Header from "../../components/Header/Header";
 import { Card } from "../../components/Card/Card";
 import { MainPageTitle, FlexSection, Section } from "../../components/Sections/Sections.style"
 import { Layout } from "../../components/Layout/Layout";
+import ClickerColector from "../../components/ClickRegister/NavigationTracker";
 
 
 
@@ -13,6 +14,7 @@ function Home() {
   return (
     <>
       <Layout>
+        <ClickerColector>
         <MainPageTitle>
           <h1>{title}</h1>
           <img src="src\assets\images\what-is-astro-product-family.png" alt="" />
@@ -44,6 +46,7 @@ function Home() {
             </Card>
           </FlexSection>
         </Section>
+        </ClickerColector>
       </Layout>
 
     </>

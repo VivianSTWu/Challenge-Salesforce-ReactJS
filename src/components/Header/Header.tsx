@@ -5,6 +5,7 @@ import { MainMenu } from "../MainMenu/MainMenu";
 import { Button } from "../Button/Button";
 import { Link } from "react-router-dom";
 import Product from "../../pages/Products/Products";
+import ClickerColector from "../ClickRegister/NavigationTracker";
 
 
 
@@ -13,6 +14,7 @@ export function Header() {
     return (
         <>
             <HeaderElement>
+                <ClickerColector>
                 <HeaderWrapperElement>
                     <LogoElement to="/">
                         <img src={Logo} alt="Logo Salesforce, uma nuvem azul com Salesforce escrito em branco" />
@@ -20,6 +22,7 @@ export function Header() {
                     <Button>Teste nosso sistema de CRM e vendas grátis</Button>
                     <MainMenu />
                 </HeaderWrapperElement>
+                </ClickerColector>
             </HeaderElement>
         </>
     )
