@@ -9,7 +9,7 @@ export const HeaderElement = styled.header`
 
 export const HeaderWrapperElement = styled.div`
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
   align-items: center;
   justify-content: space-between;
   width: 90%;

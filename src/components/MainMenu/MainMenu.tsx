@@ -6,8 +6,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
 import { MenuIcon } from "../Header/Header.style";
-import Slide from '@mui/material/Slide';
-
 
 
 export const MainMenu = () => {
@@ -26,8 +24,7 @@ export const MainMenu = () => {
     const menuItems = [
         { id: 0, label: "Home", link: "/" },
         { id: 1, label: "Produtos", link: "/" },
-        { id: 2, label: "Sobre", link: "/" },
-        { id: 3, label: "Entre em contato", link: "/" },
+        { id: 2, label: "Entre em contato", link: "/" },
     ];
 
     return (
@@ -45,7 +42,7 @@ export const MainMenu = () => {
             </MenuIcon>
 
             {!isAboveMediumScreens && isMenuToggled ? (
-                    <MobileMenuActive className="fade-enter">
+                    <MobileMenuActive>
                         {menuItems.map((item) => (
                             <MainMenuListItemElement key={item.id}>
                                 <Link to={item.link}>{item.label}</Link>

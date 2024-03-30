@@ -9,13 +9,9 @@ export const colors = {
       main: "#3A3222",
       title: "#272a50",
     },
-    actions: {
-      success: {
-        main: "#4CAF50",
-      },
-      danger: {
-        main: "#C45317",
-      },
+    button: {
+      main: "#2E844A",
+      hover:"#327849"
     },
     backgound: {
       main: "#B0D4F0",

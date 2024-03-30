@@ -5,7 +5,7 @@ export const MainMenu = styled.nav``;
 
 export const MainMenuListElement = styled.ul`
   display: flex;
-  gap: 16px;
+  gap: 30px;
   list-style: none;
   padding: 0;
   margin: 0;
