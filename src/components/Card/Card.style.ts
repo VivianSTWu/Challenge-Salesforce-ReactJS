@@ -10,9 +10,33 @@ export const CardElement = styled.div`
   background: ${colors.primary};
 
   & img {
-    width: 100%;
+    width: 120vw;
     object-fit: cover;
     border-radius: 28px;
+  }
+
+  & h2 {
+    margin-bottom: 8px;
+    font-size: clamp(16px, 2.2vw, 4vw);
+    font-weight: 400;
+    color: ${colors.text.title};
+  }
+
+  @media screen and (max-width: 767px) {
+    max-width: 80%;
+    
+    & img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+      }
+
+      & h2 {
+        margin-bottom: 8px;
+        font-size: clamp(16px, 5vw, 6vw);
+        font-weight: 400;
+        color: ${colors.text.title};
+      }
   }
 `;
 
@@ -23,7 +47,7 @@ export const CardContent = styled.div`
   & h2 {
     margin-bottom: 8px;
     font-size: 1.2rem;
-    font-weight: 700;
+    font-weight: 500;
     color: ${colors.text.title};
   }
 

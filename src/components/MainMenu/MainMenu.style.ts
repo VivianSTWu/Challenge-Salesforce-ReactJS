@@ -55,14 +55,15 @@ export const MobileMenuActive = styled.div `
     flex-direction: column;
     gap: 30px;
     position: absolute;
-    width: 200px;
+    width: 250px;
     height: 100vh;
-    padding: 30px;
+    padding: 50px;
+    padding-top: 90px;
     top: 0;
     background: white;
     right: 0;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
-    border-radius: px;
+    
 `;
