@@ -27,6 +27,12 @@ export const MainPageTitle = styled.div `
     }
 `;
 
+export const Section = styled.div `
+    & h3 {
+        font-size: clamp(20px, 2.2vw, 3.3vw);
+        text-align: center;
+    }
+`;
 
 export const FlexSection = styled.div `
     display: flex;
@@ -34,7 +40,5 @@ export const FlexSection = styled.div `
     margin-bottom: 3vw;
     margin-top: 10px;
 
-    & h3 {
-        font-size: clamp(20px, 2.2vw, 3.3vw);
-    }
+    
 `;
