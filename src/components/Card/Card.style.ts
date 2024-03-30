@@ -10,9 +10,24 @@ export const CardElement = styled.div`
   background: ${colors.primary};
 
   & img {
-    width: 100%;
+    width: 120vw;
     object-fit: cover;
     border-radius: 28px;
+  }
+
+  & h2 {
+    margin-bottom: 8px;
+    font-size: clamp(16px, 2.2vw, 4vw);
+    font-weight: 400;
+    color: ${colors.text.title};
+  }
+
+  @media screen and (max-width: 767px) {
+    & img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+      }
   }
 `;
 

@@ -75,7 +75,7 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: inherit;
   }
   body {
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: "Lexend", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
