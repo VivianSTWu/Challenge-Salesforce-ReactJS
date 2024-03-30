@@ -39,6 +39,16 @@ export const FlexSection = styled.div `
     justify-content: space-around;
     margin-bottom: 3vw;
     margin-top: 10px;
-
     
+`;
+
+export const SectionConfig = styled.div `
+
+    & h2 {
+        font-size: clamp(20px, 3.3vw, 2.5vw);
+    };
+
+
+    font-size: 28px;
+    font-weight: 700;
 `;
