@@ -32,6 +32,13 @@ margin-top: 20px;
         font-weight: 500;
         text-align: center;
     }
+
+    @media screen and (max-width: 767px) {
+        & h3 {
+            font-size: clamp(20px, 4vw, 4vw);
+        }
+    }
+
 `;
 
 export const FlexSection = styled.div `
@@ -44,6 +51,7 @@ export const FlexSection = styled.div `
         flex-direction: column;
         text-align: center;
         align-items: center;
+    }
 `;
 
 export const SectionGridImgLeft = styled.div `
