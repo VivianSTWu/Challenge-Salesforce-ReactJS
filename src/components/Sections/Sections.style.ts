@@ -11,7 +11,7 @@ export const MainPageTitle = styled.div `
 
     & h1 {
         font-size: clamp(20px, 4vw, 7vw);
-        font-weight:600;
+        font-weight:500;
         text-align: center;
     }
 
@@ -39,16 +39,65 @@ export const FlexSection = styled.div `
     justify-content: space-around;
     margin-bottom: 3vw;
     margin-top: 10px;
-    
+
+    @media screen and (max-width: 767px) {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+`;
+
+export const SectionGridImgLeft = styled.div `
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3vw;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+
+    @media screen and (max-width: 767px) {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+`;
+
+export const SectionGridImgRight = styled.div `
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3vw;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+
+    @media screen and (max-width: 767px) {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+`;
+
+export const ProductImage = styled.div `
+    & img {
+        width: 100%;
+        object-fit: cover;
+    }
 `;
 
 export const SectionConfig = styled.div `
 
     & h2 {
         font-size: clamp(20px, 3.3vw, 2.5vw);
+        font-weight: 600;
     };
 
+    & p {
+        font-size: clamp(20px, 3.3vw, 2.5vw);
+        font-weight: 300;
+        font-size: 20px;
+    };
 
-    font-size: 28px;
-    font-weight: 700;
+    & img {
+        width: 40vw;
+        object-fit: cover;
+      }
 `;
