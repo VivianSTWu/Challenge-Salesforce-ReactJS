@@ -6,7 +6,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
 import { MenuIcon } from "../Header/Header.style";
-import Product from "../../pages/Products/Products";
+import ClickTracker from "../ClickRegister/NavigationTracker";
+
 
 
 export const MainMenu = () => {
@@ -30,13 +31,13 @@ export const MainMenu = () => {
 
     return (
         <nav>
-            <MainMenuListElement onClick={handleClick}>
-                {menuItems.map((item) => (
+                <MainMenuListElement onClick={handleClick}>
+                    {menuItems.map((item) => (
                     <MainMenuListItemElement key={item.id}>
                         <Link to={item.link}>{item.label}</Link>
                     </MainMenuListItemElement>
                 ))}
-            </MainMenuListElement>
+                </MainMenuListElement>
 
             <MenuIcon onClick={handleClick}>
                 <FontAwesomeIcon icon={click ? faXmark : faBars} />
@@ -45,7 +46,7 @@ export const MainMenu = () => {
             {!isAboveMediumScreens && isMenuToggled ? (
                     <MobileMenuActive>
                         {menuItems.map((item) => (
-                            <MainMenuListItemElement key={item.id}>
+                            <MainMenuListItemElement key={item.id}> 
                                 <Link to={item.link}>{item.label}</Link>
                             </MainMenuListItemElement>
                         ))}
@@ -57,6 +58,7 @@ export const MainMenu = () => {
                     </MainMenuListItemElement>
                 ))}
             </MobileMenu>)}
+
         </nav>
 
 
