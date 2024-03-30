@@ -1,11 +1,14 @@
-import Header from "../../components/Header/Header";
+import "./Products.style.ts";
+import Header from "../../components/Header/Header.tsx";
 
-function Product() {
+
+function Products() {
     return(
-        <>
-          <Header/>
-        </>
+       <>
+        <Header/>
+       </>
     )
 }
 
-export default Product 
+export default Products
+
