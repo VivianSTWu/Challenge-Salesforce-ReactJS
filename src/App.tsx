@@ -4,6 +4,7 @@ import Products from "./pages/Products/Products.tsx";
 import Contact from "./pages/Contact/Contact.tsx";
 import Salesforce from "./pages/Salesforce/Salesforce.tsx";
 import Einstein from "./pages/Product-Einstein-GPT/Einstein.tsx";
+import SalesCloud from "./pages/SalesCloud/SalesCloud.tsx";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/Entre-em-contato" element={<Contact/>}/>
           <Route  path="/Salesforce" element={<Salesforce />}/>
           <Route path="/Einstein-gpt" element={<Einstein/>}/>
+          <Route path= "/Salescloud" element={<SalesCloud/>}/>
         </Routes>
       </BrowserRouter>
     </>
