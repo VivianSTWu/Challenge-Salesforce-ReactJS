@@ -1,4 +1,4 @@
-import { styled } from "styled-components";
+import { CSSProperties, styled } from "styled-components";
 import { colors } from "../../styles/colors";
 
 export const MainPageTitle = styled.div `
@@ -139,3 +139,55 @@ export const SectionConfig = styled.div `
         object-fit: cover;
       }
 `;
+
+
+export const ConfigDiv = styled.div `
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+`;
+
+
+export const BackgroundForm: CSSProperties = {
+    backgroundImage: 'url/src/assets/images/Group.png'
+}
+
+
+
+export const ParagraphForm= styled.div `
+    width: 23vw;
+    padding: 20px 100px 15px 0; 
+    height: ;
+    font-size: 20px;
+    font-Weight: 700;
+    line-height: 25.13px;
+`;
+
+export const FormSection = styled.div `
+    background-color: #CFEAFF;
+    border-radius: 27px;
+    width: 526px;
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px ;
+
+    & input {
+        background-color: #fff;
+        width: 25vw;
+        height: 40px;
+        border: 1.55px solid #6C6C6C;
+        border-radius: 8px;
+        font-weight: 550;
+    };
+`;
+
+export const Input: CSSProperties = {
+    padding: '0 0 0 0.5vw'
+}
+
+export const InputBox: CSSProperties = {
+
+    padding: '2vh 0 30vh 0.5vw'
+}

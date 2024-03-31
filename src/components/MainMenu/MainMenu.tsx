@@ -26,7 +26,7 @@ export const MainMenu = () => {
     const menuItems = [
         { id: 0, label: "Home", link: "/" },
         { id: 1, label: "Produtos", link: "/Produtos" },
-        { id: 2, label: "Entre em contato", link: "/" },
+        { id: 2, label: "Entre em contato", link: "/Entre-em-contato" },
     ];
 
     return (
