@@ -4,6 +4,8 @@ import Products from "./pages/Products/Products.tsx";
 import Contact from "./pages/Contact/Contact.tsx";
 import Salesforce from "./pages/Salesforce/Salesforce.tsx";
 
+import Navbar from "./components/Dropdown/Navbar.tsx";
+
 
 function App() {
 

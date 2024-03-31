@@ -1,12 +1,34 @@
-import { React, useState } from "react";
+export const menuItems = [
+    {
+      title: "Página Inicial",
+    },
+    {
+      title: "Produtos",
+      submenu: [
+        {
+          title: "Sales Cloud",
+        },
+        {
+          title: "Einstein GPT",
+        }
+      ],
+    },
+    {
+      title: "Entre em Contato",
+    },
+  ];
+  
+
+
+
+
+/*import { React, useState } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretDown } from '@fortawesome/free-solid-svg-icons';
 import { faCaretUp } from '@fortawesome/free-solid-svg-icons';
 
-
-
-export const MenuData = [
+export const menuItems = [
     {
         title: "Home",
         path: "/"
@@ -16,7 +38,7 @@ export const MenuData = [
         path: "/produtos",
         iconClosed: faCaretDown,
         iconOpened: faCaretUp,
-        subNav: [
+        submenu: [
             {
                 title: "Sales Cloud",
                 path: "/produtos/sales-cloud"
@@ -28,3 +50,4 @@ export const MenuData = [
         path: "/contato",
     }
 ];
+*/
