@@ -13,6 +13,9 @@ export const colors = {
       main: "#2E844A",
       hover:"#327849"
     },
+    subtitle: {
+      main: "#003056"
+    },
     backgound: {
       main: "#B0D4F0",
     },

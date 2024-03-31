@@ -4,7 +4,7 @@ import { colors } from "../../styles/colors";
 export const CardElement = styled.div`
   text-align: center;
   padding: 30px;
-  max-width: 40%;
+  max-width: 50%;
   border-radius: 40px;
   width: 800px;
   background: ${colors.primary};
@@ -18,13 +18,13 @@ export const CardElement = styled.div`
   & h2 {
     margin-bottom: 8px;
     font-size: clamp(16px, 2.2vw, 4vw);
-    font-weight: 400;
+    font-weight: 300;
     color: ${colors.text.title};
   }
 
   @media screen and (max-width: 767px) {
     max-width: 80%;
-    
+
     & img {
         width: 100%;
         object-fit: cover;
@@ -33,8 +33,8 @@ export const CardElement = styled.div`
 
       & h2 {
         margin-bottom: 8px;
-        font-size: clamp(16px, 5vw, 6vw);
-        font-weight: 400;
+        font-size: clamp(16px, 4vw, 6vw);
+        font-weight: 3git 00;
         color: ${colors.text.title};
       }
   }

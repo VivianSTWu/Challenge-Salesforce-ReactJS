@@ -65,5 +65,4 @@ export const MobileMenuActive = styled.div `
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
-    
 `;
