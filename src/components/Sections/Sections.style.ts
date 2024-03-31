@@ -19,6 +19,11 @@ export const MainPageTitle = styled.div `
 
     }
 
+    & p {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
     & img {
         width: 40%;
     }
@@ -130,23 +135,25 @@ export const ProductImage = styled.div `
 export const SectionConfig = styled.div `
     display: flex;
     flex-direction: column;
-    gap: 32px;
 
 
     & h2 {
         font-size: clamp(20px, 3.3vw, 2.5vw);
         font-weight: 600;
-        color: ${colors.subtitle.main}
+        color: ${colors.subtitle.main};
+        padding-top: 32px;
     };
 
     & h3 {
         color: ${colors.subtitle.main}
+        font-size: 36px;
     }
 
     & p {
         font-size: clamp(20px, 3.3vw, 2.5vw);
-        font-weight: 300;
+        font-weight: 600;
         font-size: 20px;
+        padding-bottom: 16px;
     };
 
     & img {
@@ -204,3 +211,9 @@ export const InputBox: CSSProperties = {
 
     padding: '2vh 0 30vh 0.5vw'
 }
+
+export const VideoDiv = styled.div `
+    margin: 0 0 0 20vw  ;
+    width: 40vw;
+    padding-bottom: 50px;
+`;
