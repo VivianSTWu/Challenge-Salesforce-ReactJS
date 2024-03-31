@@ -5,7 +5,10 @@ import { colors } from "../../styles/colors";
 export const HeaderElement = styled.header`
   padding: 16px 0px;
   background-color: ${colors.backgound.main};
-`;
+  position: sticky;   
+  top: 0;
+  z-index: 50;
+  `;
 
 export const HeaderWrapperElement = styled.div`
   display: grid;

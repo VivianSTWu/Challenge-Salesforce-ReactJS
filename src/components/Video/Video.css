@@ -15,4 +15,10 @@
 
   @media screen and (max-width: 767px) {
 
+    .video-responsive iframe {
+
+      height: 100%;
+      width: 90%;
+      position: absolute;
+    }
   }

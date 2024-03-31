@@ -15,37 +15,53 @@ function Home() {
     <>
       <Layout>
         <ClickerColector>
-        <MainPageTitle>
-          <h1>{title}</h1>
-          <img src="src\assets\images\what-is-astro-product-family.png" alt="" />
-        </MainPageTitle>
+          <MainPageTitle>
+            <h1>{title}</h1>
+            <img src="src\assets\images\what-is-astro-product-family.png" alt="" />
+          </MainPageTitle>
 
-        <FlexSection>
-          <Card>
-            <h2>O que é a Salesforce?</h2>
-            <img src="src\assets\images\how-to-sell.jpg" alt="" />
-          </Card>
-
-          <Card>
-            <h2>O que é CRM?</h2>
-            <img src="src\assets\images\php-rc-what-is-crm.jpg" alt="" />
-          </Card>
-        </FlexSection>
-        <Section>
-            <h3>Conheça nossos produtos</h3>
           <FlexSection>
-
             <Card>
-              <h2>Sales Cloud</h2>
-              <img src="src\assets\images\sales-image-mx.png" alt="" />
+              <Link to="/salesforce">
+                <h2>O que é a Salesforce?</h2>
+              </Link>
+              <Link to="/salesforce">
+                <img src="src\assets\images\how-to-sell.jpg" alt="" />
+              </Link>
             </Card>
 
             <Card>
-              <h2>Einstein GPT</h2>
-              <img src="src\assets\images\einsteinpng.png" alt="" />
+              <Link to="/crm">
+                <h2>O que é CRM?</h2>
+              </Link>
+              <Link to="/crm">
+                <img src="src\assets\images\php-rc-what-is-crm.jpg" alt="" />
+              </Link>
             </Card>
           </FlexSection>
-        </Section>
+          <Section>
+            <h3>Conheça nossos produtos</h3>
+            <FlexSection>
+
+              <Card>
+                <Link to="/salescloud">
+                  <h2>Sales Cloud</h2>
+                </Link>
+                <Link to="/salescloud">
+                  <img src="src\assets\images\sales-image-mx.png" alt="" />
+                </Link>
+              </Card>
+
+              <Card>
+                <Link to="/einstein-gpt">
+                  <h2>Einstein GPT</h2>
+                </Link>
+                <Link to="/einstein-gpt">
+                  <img src="src\assets\images\einsteinpng.png" alt="" />
+                </Link>
+              </Card>
+            </FlexSection>
+          </Section>
         </ClickerColector>
       </Layout>
 

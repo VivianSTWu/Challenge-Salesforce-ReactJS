@@ -17,7 +17,7 @@ export const CardElement = styled.div`
 
   & h2 {
     margin-bottom: 8px;
-    font-size: clamp(16px, 2.2vw, 4vw);
+    font-size: clamp(16px, 2vw, 3.5vw);
     font-weight: 300;
     color: ${colors.text.title};
   }

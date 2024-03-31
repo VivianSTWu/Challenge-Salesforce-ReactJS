@@ -35,9 +35,8 @@ export function Products() {
                     </ProductImage>
                     </Link>
                 </SectionGridImgLeft>
+
                 <SectionGridImgRight>
-
-
                     <Link to="/Einstein-gpt"> 
                     <ProductImage>
                         <img src="src\assets\images\Quer-ter-experiencias-personalizadas_fb_ig_pt-br 5.png" alt="Monitor exibindo produto da salesforce" />

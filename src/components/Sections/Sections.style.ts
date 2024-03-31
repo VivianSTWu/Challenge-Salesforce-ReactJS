@@ -20,7 +20,7 @@ export const MainPageTitle = styled.div `
     }
 
     & p {
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 300;
     }
 
@@ -45,12 +45,16 @@ export const BackgroundForm: CSSProperties = {
 
 
 export const Section = styled.div `
-margin-top: 20px;
+margin-top: 30px;
 
     & h3 {
         font-size: clamp(20px, 2.8vw, 3.3vw);
         font-weight: 500;
         text-align: center;
+        color: ${colors.subtitle.main}
+    }
+
+    & h2 {
         color: ${colors.subtitle.main}
     }
 
@@ -102,6 +106,25 @@ export const SectionGridImgLeft = styled.div `
     }
 `;
 
+export const SectionGridImgLeftSmall = styled.div `
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 3vw;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+
+    & h1 {
+        color: ${colors.subtitle.main}
+    }
+
+    @media screen and (max-width: 767px) {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+`;
+
 export const SectionGridImgRight = styled.div `
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -129,6 +152,16 @@ export const ProductImage = styled.div `
     & img {
         width: 100%;
         object-fit: cover;
+    }
+`;
+
+export const ProdDesc = styled.div `
+    & h2 {
+        color: ${colors.subtitle.main};
+    }
+
+    & p {
+        font-weight: 300;
     }
 `;
 
@@ -175,10 +208,10 @@ export const ConfigDiv = styled.div `
 
 
 export const ParagraphForm= styled.div `
-    width: 23vw;
+    width: 80%;
     padding: 20px 100px 15px 0; 
     height: ;
-    font-size: 20px;
+    font-size: 16px;
     font-Weight: 700;
     line-height: 25.13px;
 `;

@@ -81,7 +81,7 @@ export const GlobalStyles = createGlobalStyle`
     font-style: normal;
     min-height: 100vh;
     line-height: 1.38;
-    background-color: #E9E9E9;
+    background-color: #f1f1f1;
   }
 
   h1,
