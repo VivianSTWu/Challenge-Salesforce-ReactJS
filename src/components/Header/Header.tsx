@@ -6,7 +6,6 @@ import { Button } from "../Button/Button";
 import { Link } from "react-router-dom";
 import Product from "../../pages/Products/Products";
 import ClickerColector from "../ClickRegister/NavigationTracker";
-import Navbar from "../Dropdown/Navbar";
 
 
 
@@ -21,8 +20,7 @@ export function Header() {
                         <img src={Logo} alt="Logo Salesforce, uma nuvem azul com Salesforce escrito em branco" />
                     </LogoElement>
                     <Button>Teste nosso sistema de CRM e vendas grátis</Button>
-                    {/*<MainMenu />*/}
-                    <Navbar/>
+                    <MainMenu />
                 </HeaderWrapperElement>
                 </ClickerColector>
             </HeaderElement>

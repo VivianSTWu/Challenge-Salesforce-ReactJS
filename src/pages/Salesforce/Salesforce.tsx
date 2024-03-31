@@ -27,4 +27,4 @@ export function Salesforce() {
     )
 }
 
-export default Salesforce
+export default Salesforce;

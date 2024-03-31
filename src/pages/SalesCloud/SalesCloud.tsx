@@ -6,7 +6,7 @@ function SalesCloud() {
         <>
             <Layout>
                 <ClickerColector>
-                    <Main
+                    <Main></Main>
                 </ClickerColector>
             </Layout>
         </>
