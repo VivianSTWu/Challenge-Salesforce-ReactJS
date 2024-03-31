@@ -1,4 +1,5 @@
 import { styled } from "styled-components";
+import { colors } from "../../styles/colors";
 
 export const MainPageTitle = styled.div `
     display: flex;
@@ -9,10 +10,13 @@ export const MainPageTitle = styled.div `
     margin-top: 20px;
     margin-bottom: 50px;
 
+
     & h1 {
         font-size: clamp(20px, 4vw, 7vw);
         font-weight:500;
         text-align: center;
+        color: ${colors.subtitle.main}
+
     }
 
     & img {
@@ -24,6 +28,15 @@ export const MainPageTitle = styled.div `
     }
 `;
 
+export const MainPageTitleDesc = styled.div `
+   & p {
+    font-weight: 300;
+   }
+`;
+
+
+
+
 export const Section = styled.div `
 margin-top: 20px;
 
@@ -31,6 +44,15 @@ margin-top: 20px;
         font-size: clamp(20px, 2.8vw, 3.3vw);
         font-weight: 500;
         text-align: center;
+        color: ${colors.subtitle.main}
+    }
+
+    & h4 {
+        color: ${colors.subtitle.main}
+    }
+
+    & p {
+        font-weight: 300;
     }
 
     @media screen and (max-width: 767px) {
@@ -62,6 +84,10 @@ export const SectionGridImgLeft = styled.div `
     justify-content: space-between;
     margin-top: 30px;
 
+    & h1 {
+        color: ${colors.subtitle.main}
+    }
+
     @media screen and (max-width: 767px) {
         display: flex;
         flex-direction: column-reverse;
@@ -76,6 +102,10 @@ export const SectionGridImgRight = styled.div `
     align-items: center;
     justify-content: space-between;
     margin-top: 30px;
+
+    & h1 {
+        color: ${colors.subtitle.main}
+    }
 
     @media screen and (max-width: 767px) {
         display: flex;

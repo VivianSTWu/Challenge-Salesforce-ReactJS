@@ -4,7 +4,7 @@ import { Layout } from "../../components/Layout/Layout.tsx";
 import ClickerColector from "../../components/ClickRegister/NavigationTracker.tsx";
 
 
-function Products() {
+export function Products() {
     return (
         <>
             <Layout>
