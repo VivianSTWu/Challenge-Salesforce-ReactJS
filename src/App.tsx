@@ -3,6 +3,7 @@ import Home from "./pages/Home/Home";
 import Products from "./pages/Products/Products.tsx";
 import Contact from "./pages/Contact/Contact.tsx";
 import Salesforce from "./pages/Salesforce/Salesforce.tsx";
+import Einstein from "./pages/Product-Einstein-GPT/Einstein.tsx";
 
 import Navbar from "./components/Dropdown/Navbar.tsx";
 
@@ -17,6 +18,7 @@ function App() {
           <Route  path="/Produtos" element={<Products />}/>
           <Route path="/Entre-em-contato" element={<Contact/>}/>
           <Route  path="/Salesforce" element={<Salesforce />}/>
+          <Route path="/Einstein-gpt" element={<Einstein/>}/>
         </Routes>
       </BrowserRouter>
     </>
