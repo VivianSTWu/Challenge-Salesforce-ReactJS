@@ -19,7 +19,7 @@ export const MainPageTitle = styled.div `
     }
 
     & p {
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 300;
     }
 
@@ -59,6 +59,7 @@ margin-top: 20px;
     }
 
     & p {
+        font-size: 20px;
         font-weight: 300;
     }
 
@@ -121,7 +122,7 @@ export const SectionGridImgRight = styled.div `
     }
 
     & img {
-        width: 35vw
+        width: 35vw;
     }
 `;
 
