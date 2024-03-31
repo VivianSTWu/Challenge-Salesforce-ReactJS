@@ -34,7 +34,9 @@ export const MainPageTitleDesc = styled.div `
    }
 `;
 
-
+export const BackgroundForm: CSSProperties = {
+    backgroundImage: 'url/src/assets/images/Group.png'
+}
 
 
 export const Section = styled.div `
@@ -112,6 +114,10 @@ export const SectionGridImgRight = styled.div `
         flex-direction: column;
         text-align: center;
     }
+
+    & img {
+        width: 35vw
+    }
 `;
 
 export const ProductImage = styled.div `
@@ -122,11 +128,20 @@ export const ProductImage = styled.div `
 `;
 
 export const SectionConfig = styled.div `
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
 
     & h2 {
         font-size: clamp(20px, 3.3vw, 2.5vw);
         font-weight: 600;
+        color: ${colors.subtitle.main}
     };
+
+    & h3 {
+        color: ${colors.subtitle.main}
+    }
 
     & p {
         font-size: clamp(20px, 3.3vw, 2.5vw);
@@ -148,9 +163,7 @@ export const ConfigDiv = styled.div `
 `;
 
 
-export const BackgroundForm: CSSProperties = {
-    backgroundImage: 'url/src/assets/images/Group.png'
-}
+
 
 
 
