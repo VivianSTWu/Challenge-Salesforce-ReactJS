@@ -59,7 +59,6 @@ margin-top: 20px;
     }
 
     & p {
-        font-size: 20px;
         font-weight: 300;
     }
 
@@ -122,7 +121,7 @@ export const SectionGridImgRight = styled.div `
     }
 
     & img {
-        width: 35vw;
+        width: 35vw
     }
 `;
 
@@ -152,7 +151,7 @@ export const SectionConfig = styled.div `
 
     & p {
         font-size: clamp(20px, 3.3vw, 2.5vw);
-        font-weight: 600;
+        font-weight: 300;
         font-size: 20px;
         padding-bottom: 16px;
     };

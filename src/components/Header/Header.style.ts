@@ -3,11 +3,8 @@ import { Link } from "react-router-dom";
 import { colors } from "../../styles/colors";
 
 export const HeaderElement = styled.header`
-  padding-bottom: 16px 0;
+  padding: 16px 0px;
   background-color: ${colors.backgound.main};
-  position: sticky;   
-    top: 0;     
-}
 `;
 
 export const HeaderWrapperElement = styled.div`

@@ -1,4 +1,4 @@
-import { Footer } from "../Footer/Footer";
+import Footer from "../Footer/Footer";
 import { Header } from "../Header/Header";
 import { LayoutWrapperElement } from "./Layout.style";
 
