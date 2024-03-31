@@ -40,9 +40,6 @@ export const MainMenu = () => {
                     </MainMenuListItemElement>
                 ))}
                 </MainMenuListElement>
-                <Submenu>
-                    
-                </Submenu>
 
             <MenuIcon onClick={handleClick}>
                 <FontAwesomeIcon icon={click ? faXmark : faBars} />

@@ -25,8 +25,14 @@ const showSubNav = () => setSubnav(!subnav);
                 <div>
                     {item.subNav && subnav? item.iconOpened : item.subNav ? item.iconClosed : null}
                 </div>
-
             </SidebarLink>
+            {subnav && item.subNav.map((item, index) => {
+                return (
+                    <DropdownLink to={item.path} key={index}>
+                        <SidebarLabel>{item.title}</SidebarLabel>
+                    </DropdownLink>
+                )
+            })}
         </>
     );
 };
