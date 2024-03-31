@@ -16,12 +16,11 @@ export const MainPageTitle = styled.div `
         font-weight:500;
         text-align: center;
         color: ${colors.subtitle.main}
-
     }
 
     & p {
         font-size: 24px;
-        font-weight: 600;
+        font-weight: 300;
     }
 
     & img {
@@ -35,6 +34,7 @@ export const MainPageTitle = styled.div `
 
 export const MainPageTitleDesc = styled.div `
    & p {
+    font-size: 20px;
     font-weight: 300;
    }
 `;
@@ -151,7 +151,7 @@ export const SectionConfig = styled.div `
 
     & p {
         font-size: clamp(20px, 3.3vw, 2.5vw);
-        font-weight: 600;
+        font-weight: 300;
         font-size: 20px;
         padding-bottom: 16px;
     };
