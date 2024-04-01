@@ -84,6 +84,13 @@ export const GlobalStyles = createGlobalStyle`
     background-color: #f1f1f1;
   }
 
+  .open-dislexic {
+    font-family: 'opendyslexic';
+    src: url('http://dyslexicfonts.com/fonts/OpenDyslexic-Regular.otf');
+    font-style: normal;
+    font-weight: normal;
+  }
+
   h1,
   h2,
   h3,
