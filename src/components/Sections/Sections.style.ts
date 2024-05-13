@@ -39,11 +39,6 @@ export const MainPageTitleDesc = styled.div `
    }
 `;
 
-export const BackgroundForm: CSSProperties = {
-    backgroundImage: 'url/src/assets/images/Group.png'
-}
-
-
 export const Section = styled.div `
 margin-top: 30px;
 
@@ -201,49 +196,6 @@ export const ConfigDiv = styled.div `
     flex-direction: column;
     gap: 4em;
 `;
-
-
-
-
-
-
-export const ParagraphForm= styled.div `
-    width: 80%;
-    padding: 20px 100px 15px 0; 
-    height: ;
-    font-size: 16px;
-    font-Weight: 700;
-    line-height: 25.13px;
-`;
-
-export const FormSection = styled.div `
-    background-color: #CFEAFF;
-    border-radius: 27px;
-    width: 526px;
-    height: 1080px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 23px ;
-
-    & input {
-        background-color: #fff;
-        width: 25vw;
-        height: 40px;
-        border: 1.55px solid #6C6C6C;
-        border-radius: 8px;
-        font-weight: 550;
-    };
-`;
-
-export const Input: CSSProperties = {
-    padding: '0 0 0 0.5vw'
-}
-
-export const InputBox: CSSProperties = {
-
-    padding: '2vh 0 30vh 0.5vw'
-}
 
 export const VideoDiv = styled.div `
     margin: 0 0 0 20vw  ;

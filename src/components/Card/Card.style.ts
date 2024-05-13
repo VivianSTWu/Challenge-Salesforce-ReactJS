@@ -10,7 +10,8 @@ export const CardElement = styled.div`
   background: ${colors.primary};
 
   & img {
-    width: 120vw;
+    margin-bottom: 16px;
+    height: 20vw;
     object-fit: cover;
     border-radius: 28px;
   }

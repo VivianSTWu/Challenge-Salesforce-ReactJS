@@ -7,7 +7,7 @@ export const Box = styled.div`
 	display:flex;
 	justify-content: center;
 	padding: 30px 30px 20px 30px;
-	background-color: ${colors.backgound.main};
+	background-color: ${colors.primary.main};
 	// position: absolute;
 	bottom: 0;
 	width: 100%;
@@ -23,7 +23,7 @@ export const FooterContainer = styled.div`
 	flex-direction: column;
 	justify-content: center;
 	width: 90%;
-	background: ${colors.backgound.main};
+	background: ${colors.primary.main};
 `;
 
 

@@ -1,7 +1,6 @@
 import "./Products.style.ts";
 import { MainPageTitle, FlexSection, Section, SectionConfig, ProductImage, SectionGrid, SectionGridImgRight, SectionGridImgLeft } from "../../components/Sections/Sections.style"
 import { Layout } from "../../components/Layout/Layout.tsx";
-import ClickerColector from "../../components/ClickRegister/NavigationTracker.tsx";
 import { Button } from "../../components/Button/Button.tsx";
 import { Link } from "react-router-dom";
 
@@ -10,7 +9,6 @@ export function Products() {
     return (
         <>
             <Layout>
-               <ClickerColector>
                 <MainPageTitle>
                     <h1>PRODUTOS</h1>
                 </MainPageTitle>
@@ -52,9 +50,6 @@ export function Products() {
                         </Link>
                     </SectionConfig>
                 </SectionGridImgRight>
-
-
-               </ClickerColector>
             </Layout>
         </>
     )

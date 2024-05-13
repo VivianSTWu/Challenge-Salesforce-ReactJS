@@ -1,4 +1,3 @@
-import ClickerColector from "../../components/ClickRegister/NavigationTracker"
 import { Layout } from "../../components/Layout/Layout"
 import { FlexColumnSection, FlexSection, MainPageTitle, SectionConfig, SectionGridImgLeft, SectionGridImgRight } from "../../components/Sections/Sections.style"
 
@@ -6,7 +5,6 @@ function Einstein() {
     return(
         <>
             <Layout>
-                <ClickerColector>
                     <MainPageTitle>
                         <SectionConfig>
                             <h1>Einstein GPT</h1>
@@ -28,7 +26,6 @@ function Einstein() {
                        </SectionConfig>
                        <img src="src\assets\images\image 9.png" /> 
                      </SectionGridImgRight>
-                </ClickerColector>
             </Layout>
         </>
     )

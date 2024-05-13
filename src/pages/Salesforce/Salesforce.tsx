@@ -1,7 +1,6 @@
 import "./Salesforce.style.ts";
 import { MainPageTitle, FlexSection, Section, SectionConfig, ProductImage, SectionGrid, SectionGridImgRight, SectionGridImgLeft, MainPageTitleDesc } from "../../components/Sections/Sections.style"
 import { Layout } from "../../components/Layout/Layout.tsx";
-import ClickerColector from "../../components/ClickRegister/NavigationTracker.tsx";
 import Video from "../../components/Video/Video.tsx";
 
 
@@ -9,7 +8,6 @@ export function Salesforce() {
     return (
         <>
             <Layout>
-                <ClickerColector>
                     <SectionGridImgRight>
                         <MainPageTitleDesc>
                             <h1>O que é a Salesforce?</h1>
@@ -21,7 +19,6 @@ export function Salesforce() {
                         <h4>Juntos, conectamos as empresas aos seus clientes.</h4>
                         <p>Utilizando o Salesforce Customer 360, nossa plataforma de CRM integrada, sua empresa oferece experiências personalizadas para seus clientes. Nossa solução fornece produtos poderosos e conectados para melhorar seu marketing, vendas, commerce, atendimento ao cliente, TI e muito mais.</p>
                     </Section>
-                </ClickerColector>
             </Layout>
         </>
     )

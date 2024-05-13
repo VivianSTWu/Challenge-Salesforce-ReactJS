@@ -1,6 +1,7 @@
-import { Button } from "@mui/material"
+import { Button } from "../../components/Button/Button"
 import { Layout } from "../../components/Layout/Layout"
-import { BackgroundForm, ConfigDiv, FlexSection, FormContainer, FormSection, Input, InputBox, MainPageTitle, ParagraphForm, SectionConfig, SpecialInput } from "../../components/Sections/Sections.style"
+import { BackgroundForm, FormSection, Input, InputBox, ParagraphForm } from "./Contact.style"
+import { ConfigDiv, FlexSection, MainPageTitle, SectionConfig } from "../../components/Sections/Sections.style"
 
 
 function Contact() {
@@ -31,7 +32,7 @@ function Contact() {
                     </p>
                     </ParagraphForm>
                     <div>
-                        <input type="text" placeholder="NOME" style={Input}></input>
+                        <input type="text" placeholder="Nome" style={Input}></input>
                     </div>    
                     <div>
                         <input type="text" placeholder="Sobrenome" style={Input}></input> 
@@ -60,6 +61,7 @@ function Contact() {
                     <div>
                         <input type="text" placeholder="Perguntas/Comentários" style={InputBox}></input>
                     </div>
+                    <Button>Enviar</Button>
                 </FormSection>
             </FlexSection>
         </Layout>

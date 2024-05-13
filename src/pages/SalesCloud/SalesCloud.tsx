@@ -1,4 +1,3 @@
-import ClickerColector from "../../components/ClickRegister/NavigationTracker"
 import { Layout } from "../../components/Layout/Layout"
 import { MainPageTitle, MainPageTitleDesc, Section, SectionConfig, VideoDiv } from "../../components/Sections/Sections.style"
 import Video from "../../components/Video/Video.tsx";
@@ -8,7 +7,6 @@ function SalesCloud() {
     return(
         <>
             <Layout>
-                <ClickerColector>
                     <MainPageTitle>
                         <div>
                         <h1>Sales Cloud</h1>
@@ -25,7 +23,6 @@ function SalesCloud() {
                     <h2>Acelere a produtividade</h2>
                     <p>Todos os negócios. Todos os dias. Veja a seguir seis recursos do Sales Cloud que ajudam a priorizar o mais importante: trabalhar com os clientes para fechar negócios. Em qualquer lugar.</p>
                    </SectionConfig>
-                </ClickerColector>
             </Layout>
         </>
     )
