@@ -9,29 +9,26 @@ import CRM from "./pages/CRM/CRM.tsx";
 
 import { Fab, Action } from 'react-tiny-fab';
 import { useState } from "react";
-import {faEye} from '@fortawesome/free-solid-svg-icons';
-
+import { faEye } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
 
-  {/*const HandleClickProt = () => { document.body.classList.toggle("protanopia") }*/}
-  const HandleClickDisl = () => { document.body.classList.toggle("open-dislexic")}
-  
-
+  // const HandleClickProt = () => { document.body.classList.toggle("protanopia") }
+  // const HandleClickDisl = () => { document.body.classList.toggle("open-dislexic")}
 
   return (
     <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Produtos" element={<Products />} />
-          <Route path="/Entre-em-contato" element={<Contact />} />
-          <Route path="/Salesforce" element={<Salesforce />} />
-          <Route path="/Einstein-gpt" element={<Einstein />} />
-          <Route path="/Salescloud" element={<SalesCloud />} />
-          <Route path="/CRM" element={<CRM />} />
-        </Routes>
-      </BrowserRouter>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/Produtos" element={<Products />} />
+            <Route path="/Entre-em-contato" element={<Contact />} />
+            <Route path="/Salesforce" element={<Salesforce />} />
+            <Route path="/Einstein-gpt" element={<Einstein />} />
+            <Route path="/Salescloud" element={<SalesCloud />} />
+            <Route path="/CRM" element={<CRM />} />
+          </Routes>
+        </BrowserRouter>
     </>
   )
 }

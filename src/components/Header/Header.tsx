@@ -5,11 +5,14 @@ import { MainMenu } from "../MainMenu/MainMenu";
 import { Button } from "../Button/Button";
 import { Link } from "react-router-dom";
 import Product from "../../pages/Products/Products";
-import ClickerColector from "../ClickRegister/NavigationTracker";
+import ClickerColector from "../../assets/ClickRegister/NavigationTracker";
 
-
+/* import { useContext } from "react";
+import { ColorBlindContext } from "../../context/ColorBlindContext"; */
 
 export function Header() {
+
+    // const { toggleProt } = useContext(ColorBlindContext);
 
     /* const HandleClickProt = () => {
         const images = document.getElementsByTagName("img");
@@ -25,16 +28,15 @@ export function Header() {
     return (
         <>
             <HeaderElement>
-                {/*<ClickerColector>*/}
-
+                <ClickerColector>
                 <HeaderWrapperElement>
                     <LogoElement to="/">
                         <img src={Logo} alt="Logo Salesforce, uma nuvem azul com Salesforce escrito em branco" />
                     </LogoElement>
-                    <Button onClick={HandleClickDisl}>Teste nosso sistema de CRM e vendas grátis</Button>
+                    <Button>Teste nosso sistema de CRM e vendas grátis</Button>
                     <MainMenu />
                 </HeaderWrapperElement>
-                {/*</ClickerColector>*/}
+                </ClickerColector>
 
             </HeaderElement>
         </>

@@ -2,12 +2,14 @@ import { Button } from "../../components/Button/Button"
 import { Layout } from "../../components/Layout/Layout"
 import { BackgroundForm, FormSection, Input, InputBox, ParagraphForm } from "./Contact.style"
 import { ConfigDiv, FlexSection, MainPageTitle, SectionConfig } from "../../components/Sections/Sections.style"
+import ClickerColector from "../../assets/ClickRegister/NavigationTracker"
 
 
 function Contact() {
     return(
         <div style={BackgroundForm}>
         <Layout>
+        <ClickerColector>
             <MainPageTitle>
             </MainPageTitle>
             <FlexSection style={BackgroundForm}>
@@ -64,6 +66,7 @@ function Contact() {
                     <Button>Enviar</Button>
                 </FormSection>
             </FlexSection>
+            </ClickerColector>
         </Layout>
         </div>
     )
