@@ -16,7 +16,7 @@ export const ParagraphForm= styled.div `
 export const FormSection = styled.div `
     background-color: ${colors.background.lightblue};
     border-radius: 27px;
-    width: 50vw;
+    width: 40vw;
     height: auto;
     display: flex;
     flex-direction: column;
