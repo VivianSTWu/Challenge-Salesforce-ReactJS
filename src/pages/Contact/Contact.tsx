@@ -8,16 +8,16 @@ import { ConfigDiv, FlexSection, MainPageTitle, SectionConfig } from "../../comp
 function Contact() {
 
     const [formData, setFormData] = useState({
-        nome: '',
+        nm_clie: '',
         sobrenome: '',
         email: '',
-        telefone: '',
-        cargo: '',
         empresa: '',
-        segmento: '',
-        tamanhoempresa: '',
+        tamanho_empresa: '',
         pais: '',
-        mensagem: ''
+        cargo: '',
+        telefone: '',
+        desc_form: '',
+        seg_empresa: ''
     });
 
     // Função para lidar com a mudança nos inputs do formulário
@@ -35,7 +35,7 @@ function Contact() {
 
         try {
             // Envia os dados do formulário para a API
-            const response = await fetch('sua_url_da_api', {
+            const response = await fetch('http://127.0.0.1:5000/contatenos', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -75,21 +75,21 @@ function Contact() {
                             </div>
                         </ConfigDiv>
                     </SectionConfig>
-                    <FormSection>
-                        <ParagraphForm>
-                            <p>
-                                Preencha o formulário abaixo e um especialista entrará em contato com você o mais rápido possível.
-                            </p>
-                        </ParagraphForm>
-                        <form onSubmit={handleSubmit}>
+                    <form>
+                        <FormSection>
+                            <ParagraphForm>
+                                <p>
+                                    Preencha o formulário abaixo e um especialista entrará em contato com você o mais rápido possível.
+                                </p>
+                            </ParagraphForm>
                             <div>
-                                <input type="text" id="nome" name="nome" value={formData.nome} onChange={handleInputChange} placeholder="Nome" style={Input}></input>
+                                <input type="text" id="nm_clie" name="nm_clie" value={formData.nm_clie} onChange={handleInputChange} placeholder="Nome" style={Input}></input>
                             </div>
                             <div>
                                 <input type="text" id="sobrenome" name="sobrenome" value={formData.sobrenome} onChange={handleInputChange} placeholder="Sobrenome" style={Input}></input>
                             </div>
                             <div>
-                                <input type="email" id="email" name="email" value={formData.email} onChange={handleInputChange} placeholder="Email corporativo"  style={Input}></input>
+                                <input type="email" id="email" name="email" value={formData.email} onChange={handleInputChange} placeholder="Email corporativo" style={Input}></input>
                             </div>
                             <div>
                                 <input type="tel" id="telefone" name="telefone" value={formData.telefone} onChange={handleInputChange} placeholder="Telefone" style={Input}></input>
@@ -101,20 +101,20 @@ function Contact() {
                                 <input type="text" id="empresa" name="empresa" value={formData.empresa} onChange={handleInputChange} placeholder="Empresa" style={Input}></input>
                             </div>
                             <div>
-                                <input type="text" id="segmento" name="segmento" value={formData.segmento} onChange={handleInputChange} placeholder="Segmento" style={Input}></input>
+                                <input type="text" id="seg_empresa" name="seg_empresa" value={formData.seg_empresa} onChange={handleInputChange} placeholder="Segmento" style={Input}></input>
                             </div>
                             <   div>
-                                <input type="number" id="tamanhoempresa" name="tamanhoempresa" value={formData.tamanhoempresa} onChange={handleInputChange} placeholder="Tamanho da empresa" style={Input}></input>
+                                <input type="number" id="tamanho_empresa" name="tamanho_empresa" value={formData.tamanho_empresa} onChange={handleInputChange} placeholder="Tamanho da empresa" style={Input}></input>
                             </div>
                             <div>
                                 <input type="text" id="pais" name="pais" value={formData.pais} onChange={handleInputChange} placeholder="País/Região" style={Input}></input>
                             </div>
                             <div>
-                                <input type="text" id="mensagem" name="mensagem" value={formData.mensagem} onChange={handleInputChange} placeholder="Perguntas/Comentários" style={InputBox}></input>
+                                <input type="text" id="desc_form" name="desc_form" value={formData.desc_form} onChange={handleInputChange} placeholder="Perguntas/Comentários" style={InputBox}></input>
                             </div>
-                            <Button type="submit">Enviar</Button>
+                            <Button onClick={handleSubmit} type="submit">Enviar</Button>
+                        </FormSection>
                         </form>
-                    </FormSection>
                 </FlexSection>
             </Layout>
         </div>
