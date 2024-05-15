@@ -1,0 +1,47 @@
+.floating-button {
+    position: fixed;
+    bottom: 40%;
+    right: 10px;
+    transform: translateY(50%);
+    width: 40px;
+    height: 40px;
+    background-color: #007bff; /* Cor de fundo do botão */
+    border: none;
+    border-radius: 8px;
+    color: #fff; /* Cor do ícone do botão */
+    font-size: 15px;
+    font-family: 'opendyslexic';
+    src: url('http://dyslexicfonts.com/fonts/OpenDyslexic-Regular.otf');
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra */
+  }
+  
+  .floating-button:hover {
+    background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+  }
+  
+  .button-icon {
+    line-height: 40px;
+  }
+
+
+  .button-title {
+    position: absolute; /* Posicionamento absoluto em relação ao pai */
+    top: 50%; /* Ajustamos para o meio vertical */
+    left: 100%; /* Inicialmente fora da tela à direita */
+    transform: translate(-50%, -50%); /* Alinhamos vertical e horizontalmente */
+    background-color: #000; /* Cor de fundo do título */
+    color: #fff; /* Cor do texto do título */
+    padding: 5px 10px; /* Espaçamento interno do título */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 14px; /* Tamanho da fonte */
+    white-space: nowrap; /* Evitar quebra de linha */
+    transition: left 0.6s ease; /* Adicionamos uma transição apenas para a propriedade left */
+  }
+  
+  .floating-button:hover .button-title {
+    left: -70px; /* Movemos o título para a esquerda */
+  }

@@ -2,14 +2,12 @@
 import { MainPageTitle, FlexSection, Section, SectionConfig, ProductImage, SectionGrid, SectionGridImgRight, SectionGridImgLeft, MainPageTitleDesc, SectionGridImgLeftSmall, ProdDesc } from "../../components/Sections/Sections.style"
 import { Layout } from "../../components/Layout/Layout.tsx";
 import Video from "../../components/Video/Video.tsx";
-import ClickerColector from "../../assets/ClickRegister/NavigationTracker.tsx";
 
 
 export function CRM() {
     return (
         <>
             <Layout>
-                <ClickerColector>
                     <SectionGridImgRight>
                         <MainPageTitleDesc>
                             <h1>O que é CRM?</h1>
@@ -27,12 +25,11 @@ export function CRM() {
                         </ProdDesc>
                     </SectionGridImgLeftSmall>
                     <Section>
-
-                        <h2>O que sua pequena empresa precisa saber sobre CRM?</h2>
-                        <p>Criamos esse espaço para ajudar os profissionais de áreas diferentes a desenvolver seus conhecimentos de negócios. Confira os conteúdos que preparamos para você aprender sobre CRM e entender os conceitos básicos de vendas, atendimento ao cliente e tecnologia com foco em melhorar a experiência do cliente e, consequentemente, ajudar a sua empresa a vender mais.</p>
-
+                       
+                            <h2>O que sua pequena empresa precisa saber sobre CRM?</h2>
+                            <p>Criamos esse espaço para ajudar os profissionais de áreas diferentes a desenvolver seus conhecimentos de negócios. Confira os conteúdos que preparamos para você aprender sobre CRM e entender os conceitos básicos de vendas, atendimento ao cliente e tecnologia com foco em melhorar a experiência do cliente e, consequentemente, ajudar a sua empresa a vender mais.</p>
+                        
                     </Section>
-                </ClickerColector>
             </Layout>
         </>
     )
