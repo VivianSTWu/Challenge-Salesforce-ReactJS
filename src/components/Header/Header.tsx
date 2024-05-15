@@ -25,7 +25,7 @@ export function Header() {
     return (
         <>
             <HeaderElement>
-                <ClickerColector>
+                {/* <ClickerColector> */}
                 <HeaderWrapperElement>
                     <LogoElement to="/">
                         <img src={Logo} alt="Logo Salesforce, uma nuvem azul com Salesforce escrito em branco" />
@@ -35,7 +35,7 @@ export function Header() {
                     </Link>
                     <MainMenu />
                 </HeaderWrapperElement>
-                </ClickerColector>
+                {/* </ClickerColector> */}
             </HeaderElement>
         </>
     )

@@ -14,7 +14,7 @@ import ClickerColector from "../../assets/ClickRegister/NavigationTracker";
 
 const Footer = () => {
     return (
-        <ClickerColector>
+        // <ClickerColector>
             <Box>
                 <Logo>
                     <img src="src\assets\logo-salesforce.svg" alt="" />
@@ -48,7 +48,7 @@ const Footer = () => {
                     </Row>
                 </FooterContainer>
             </Box>
-        </ClickerColector>
+        // </ClickerColector>
     );
 };
 export default Footer;

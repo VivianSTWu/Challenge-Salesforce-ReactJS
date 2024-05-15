@@ -11,9 +11,9 @@ export const Layout = ({ children }: LayoutProps) => {
   return (
     <>
       <Header />
-      <ClickerColector>
+      {/* <ClickerColector> */}
         <LayoutWrapperElement>{children}</LayoutWrapperElement>
-      </ClickerColector>
+      {/* </ClickerColector> */}
       <Footer />
     </>
   );

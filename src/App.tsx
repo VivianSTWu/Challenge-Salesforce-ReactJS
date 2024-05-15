@@ -14,7 +14,7 @@ import FloatingButton from "./components/FAB/FloatingButton.tsx";
 
 function App() {
 
-  {/*const HandleClickProt = () => { document.body.classList.toggle("protanopia") }*/ }
+  const HandleClickProt = () => { document.body.classList.toggle("protanopia") }
   const HandleClickDisl = () => { document.body.classList.toggle("open-dislexic") }
 
 
@@ -32,7 +32,8 @@ function App() {
             <Route path="/CRM" element={<CRM />} />
           </Routes>
         </BrowserRouter>
-        <FloatingButton title="Open Dyslexic" onClick={HandleClickDisl}/>
+        <FloatingButton title="Open Dyslexic" icon="OD" onClick={HandleClickDisl}/>
+        {/* <FloatingButton title="Protanopia" icon="+" onClick={HandleClickProt}/> */}
     </>
   )
 }
