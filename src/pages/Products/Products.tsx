@@ -1,5 +1,5 @@
 import "./Products.style.ts";
-import { MainPageTitle, FlexSection, Section, SectionConfig, ProductImage, SectionGrid, SectionGridImgRight, SectionGridImgLeft } from "../../components/Sections/Sections.style"
+import { MainPageTitle, SectionConfig, ProductImage, SectionGridImgRight, SectionGridImgLeft } from "../../components/Sections/Sections.style"
 import { Layout } from "../../components/Layout/Layout.tsx";
 import { Button } from "../../components/Button/Button.tsx";
 import { Link } from "react-router-dom";

@@ -1,6 +1,4 @@
-import React from "react";
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
-import Header from "../../components/Header/Header";
+import { Link } from "react-router-dom";
 import { Card } from "../../components/Card/Card";
 import { MainPageTitle, FlexSection, Section } from "../../components/Sections/Sections.style"
 import { Layout } from "../../components/Layout/Layout";
