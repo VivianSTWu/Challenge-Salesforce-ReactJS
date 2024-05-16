@@ -1,5 +1,5 @@
 import { Layout } from "../../components/Layout/Layout"
-import { MainPageTitle, MainPageTitleDesc, Section, SectionConfig, VideoDiv } from "../../components/Sections/Sections.style"
+import { MainPageTitle, SectionConfig, VideoDiv } from "../../components/Sections/Sections.style"
 import Video from "../../components/Video/Video.tsx";
 
 

@@ -6,15 +6,10 @@ import Salesforce from "./pages/Salesforce/Salesforce.tsx";
 import Einstein from "./pages/Product-Einstein-GPT/Einstein.tsx";
 import SalesCloud from "./pages/SalesCloud/SalesCloud.tsx";
 import CRM from "./pages/CRM/CRM.tsx";
-
-import { Fab, Action } from 'react-tiny-fab';
-import { useState } from "react";
-import { faEye } from '@fortawesome/free-solid-svg-icons';
 import FloatingButton from "./components/FAB/FloatingButton.tsx";
 
 function App() {
 
-  const HandleClickProt = () => { document.body.classList.toggle("protanopia") }
   const HandleClickDisl = () => { document.body.classList.toggle("open-dislexic") }
 
 

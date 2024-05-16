@@ -10,7 +10,7 @@ import {
     Heading,
     Logo,
 } from "./Footer.style";
-import ClickerColector from "../../assets/ClickRegister/NavigationTracker";
+
 
 const Footer = () => {
     return (

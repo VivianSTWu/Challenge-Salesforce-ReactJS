@@ -4,8 +4,6 @@ import Logo from "../../assets/logo-salesforce.svg";
 import { MainMenu } from "../MainMenu/MainMenu";
 import { Button } from "../Button/Button";
 import { Link } from "react-router-dom";
-import Product from "../../pages/Products/Products";
-import ClickerColector from "../../assets/ClickRegister/NavigationTracker";
 
 
 
@@ -31,7 +29,7 @@ export function Header() {
                         <img src={Logo} alt="Logo Salesforce, uma nuvem azul com Salesforce escrito em branco" />
                     </LogoElement>
                     <Link to="https://www.salesforce.com/br/form/signup/freetrial-sales-pe/?d=70130000000EqoPAAS">
-                    <Button>Teste nosso sistema de CRM e vendas grátis</Button>
+                    <Button onClick={() => {}}>Teste nosso sistema de CRM e vendas grátis</Button>
                     </Link>
                     <MainMenu />
                 </HeaderWrapperElement>

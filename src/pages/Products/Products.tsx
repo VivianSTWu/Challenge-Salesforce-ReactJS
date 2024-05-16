@@ -1,5 +1,5 @@
 import "./Products.style.ts";
-import { MainPageTitle, FlexSection, Section, SectionConfig, ProductImage, SectionGrid, SectionGridImgRight, SectionGridImgLeft } from "../../components/Sections/Sections.style"
+import { MainPageTitle,SectionConfig, ProductImage,SectionGridImgRight, SectionGridImgLeft } from "../../components/Sections/Sections.style"
 import { Layout } from "../../components/Layout/Layout.tsx";
 import { Button } from "../../components/Button/Button.tsx";
 import { Link } from "react-router-dom";
@@ -23,7 +23,7 @@ export function Products() {
                         expandir suas contas, encontrar novos clientes e fechar
                         negócios com mais rapidez e de qualquer lugar.</p>
                         <Link to="/Salescloud">
-                        <Button>Saiba mais</Button>
+                        <Button onClick={() => {}}>Saiba mais</Button>
                         </Link>
                     </SectionConfig>
 
@@ -46,7 +46,7 @@ export function Products() {
                     </Link>
                         <p>O Einstein GPT se destaca como uma ferramenta essencial para impulsionar os negócios. A Inteligência Artificial da Salesforce oferece experiências personalizadas, aumenta a eficiência operacional e simplifica a inovação, colocando as empresas um passo à frente na busca pelo sucesso.</p>
                         <Link to="/Einstein-gpt">
-                            <Button>Saiba mais</Button>
+                            <Button onClick={() => {}}>Saiba mais</Button>
                         </Link>
                     </SectionConfig>
                 </SectionGridImgRight>

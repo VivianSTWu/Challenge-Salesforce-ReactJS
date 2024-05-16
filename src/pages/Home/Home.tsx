@@ -1,6 +1,5 @@
 import React from "react";
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
-import Header from "../../components/Header/Header";
+import {Link} from "react-router-dom";
 import { Card } from "../../components/Card/Card";
 import { MainPageTitle, FlexSection, Section } from "../../components/Sections/Sections.style"
 import { Layout } from "../../components/Layout/Layout";
@@ -28,7 +27,7 @@ function Home() {
               <img src="src\assets\images\how-to-sell.jpg" alt="" />
             </Link>
             <Link to="/salesforce">
-              <Button>Saiba Mais sobre a Salesforce</Button>
+              <Button onClick={() => {}}>Saiba Mais sobre a Salesforce</Button>
             </Link>
           </Card>
 
@@ -40,7 +39,7 @@ function Home() {
               <img src="src\assets\images\php-rc-what-is-crm.jpg" alt="" />
             </Link>
             <Link to="/crm">
-              <Button>Saiba Mais sobre CRM</Button>
+              <Button onClick={() => {}}>Saiba Mais sobre CRM</Button>
             </Link>
           </Card>
         </FlexSection>
@@ -56,7 +55,7 @@ function Home() {
                 <img src="src\assets\images\sales-image-mx.png" alt="" />
               </Link>
               <Link to="/salescloud">
-                <Button>Saiba Mais sobre Sales Cloud</Button>
+                <Button onClick={() => {}}>Saiba Mais sobre Sales Cloud</Button>
               </Link>
             </Card>
 
@@ -68,7 +67,7 @@ function Home() {
                 <img src="src\assets\images\einsteinpng.png" alt="" />
               </Link>
               <Link to="/einstein-gpt">
-                <Button>Saiba Mais sobre o Einstein GPT</Button>
+                <Button onClick={() => {}}>Saiba Mais sobre o Einstein GPT</Button>
               </Link>
             </Card>
           </FlexSection>

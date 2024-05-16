@@ -1,4 +1,4 @@
-import { CSSProperties, styled } from "styled-components";
+import { styled } from "styled-components";
 import { colors } from "../../styles/colors";
 
 export const MainPageTitle = styled.div `
@@ -173,7 +173,7 @@ export const SectionConfig = styled.div `
     };
 
     & h3 {
-        color: ${colors.subtitle.main}
+        color: ${colors.subtitle.main};
         font-size: 36px;
     }
 

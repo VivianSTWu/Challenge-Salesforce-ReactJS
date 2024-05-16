@@ -1,5 +1,5 @@
 import "./Salesforce.style.ts";
-import { MainPageTitle, FlexSection, Section, SectionConfig, ProductImage, SectionGrid, SectionGridImgRight, SectionGridImgLeft, MainPageTitleDesc } from "../../components/Sections/Sections.style"
+import { Section,SectionGridImgRight, MainPageTitleDesc } from "../../components/Sections/Sections.style"
 import { Layout } from "../../components/Layout/Layout.tsx";
 import Video from "../../components/Video/Video.tsx";
 

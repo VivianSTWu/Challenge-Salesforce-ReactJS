@@ -1,5 +1,5 @@
 import { Layout } from "../../components/Layout/Layout"
-import { FlexColumnSection, FlexSection, MainPageTitle, SectionConfig, SectionGridImgLeft, SectionGridImgRight } from "../../components/Sections/Sections.style"
+import {MainPageTitle, SectionConfig, SectionGridImgRight } from "../../components/Sections/Sections.style"
 
 function Einstein() {
     return(
