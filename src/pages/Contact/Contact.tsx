@@ -69,6 +69,8 @@ function Contact() {
                                 </h2>
                                 <p>Gostou do que viu? Ficou com alguma dúvida?</p>
                                 <p>Podemos te ajudar!</p>
+                                <p>Nossos principais valores ajudam a tornar a Salesforce uma plataforma para mudanças.</p>
+                                <p>Preencha o formulário ou ligue para <strong>0800 891 1887.</strong></p>
                             </div>
                             <div>
                                 <img src="src\assets\images\Group 26.png"></img>

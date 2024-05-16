@@ -143,6 +143,29 @@ export const SectionGridImgRight = styled.div `
     }
 `;
 
+export const SectionGridImgRightSmall = styled.div `
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 3vw;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+
+    & h1 {
+        color: ${colors.subtitle.main}
+    }
+
+    @media screen and (max-width: 767px) {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    & img {
+        width: 35vw
+    }
+`;
+
 export const ProductImage = styled.div `
     & img {
         width: 100%;
