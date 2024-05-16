@@ -11,6 +11,10 @@ export const ParagraphForm= styled.div `
     font-size: 16px;
     font-Weight: 700;
     line-height: 25.13px;
+
+    @media screen and (max-width: 767px) {
+        font-size: 12px;
+    }
 `;
 
 export const FormSection = styled.div `
@@ -21,10 +25,14 @@ export const FormSection = styled.div `
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 18px ;
+    gap: 10px ;
     padding: 30px 16px;
 
-    & input {
+    & label {
+        font-size: 13px;
+    }
+
+    & input, select {
         background-color: #fff;
         width: 30vw;
         height: 30px;
@@ -33,6 +41,22 @@ export const FormSection = styled.div `
         font-size: 12px;
         font-weight: 300;
     };
+
+    @media screen and (max-width: 767px) {
+        width: 80vw;
+        align-items: start;
+
+        & label {
+            font-size: 10px;
+        }
+
+        & input, select {
+            width: 60vw;
+            height: 25px;
+            font-size: 10px;
+            font-weight: 300;
+        }
+    }
 `;
 
 export const Input: CSSProperties = {

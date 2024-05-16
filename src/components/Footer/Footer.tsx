@@ -1,6 +1,4 @@
-// Filename - components/Footer.js
-
-import React from "react";
+//import React from "react";
 import {
     Box,
     FooterContainer,
@@ -10,11 +8,9 @@ import {
     Heading,
     Logo,
 } from "./Footer.style";
-import ClickerColector from "../../assets/ClickRegister/NavigationTracker";
 
 const Footer = () => {
     return (
-        // <ClickerColector>
             <Box>
                 <Logo>
                     <img src="src\assets\logo-salesforce.svg" alt="" />
@@ -41,14 +37,13 @@ const Footer = () => {
                         </Column>
                         <Column>
                             <Heading>Contato</Heading>
-                            <FooterLink href="/contato">
+                            <FooterLink href="/Entre-em-contato">
                                 Fale conosco
                             </FooterLink>
                         </Column>
                     </Row>
                 </FooterContainer>
             </Box>
-        // </ClickerColector>
     );
 };
 export default Footer;
