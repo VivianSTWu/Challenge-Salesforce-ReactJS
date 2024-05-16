@@ -44,7 +44,7 @@ export const FormSection = styled.div `
 
     @media screen and (max-width: 767px) {
         width: 80vw;
-        align-items: start;
+        align-items: center;
 
         & label {
             font-size: 10px;

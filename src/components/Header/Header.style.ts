@@ -17,6 +17,12 @@ export const HeaderWrapperElement = styled.div`
   justify-content: space-between;
   width: 90%;
   margin: auto auto;
+
+  @media screen and (max-width: 767px) {
+    button {
+      width: 80%;
+    }
+  }
 `;
 
 export const LogoElement = styled(Link)`
@@ -32,6 +38,12 @@ export const LogoElement = styled(Link)`
   img {
     width: 100%;
     margin-right: 8px;
+  }
+
+  @media screen and (max-width: 767px) {
+    img {
+      width: 80%;
+    }
   }
 `;
 
